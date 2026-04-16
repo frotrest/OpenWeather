@@ -217,6 +217,12 @@
 
 @media (max-width: 1200px) {
   .heroFormBtn {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroFormBtn {
     padding: 3px;
   }
 }
