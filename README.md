@@ -1,18 +1,45 @@
-# React + Vite
+# Project Overview
+OpenWeather Dashboard is an adaptive single‑page application for fetching and displaying current weather and short‑term forecasts for user‑selected locations. The project is a learning pet project that demonstrates practical React patterns, responsive UI, API integration, and lightweight state management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Purpose
 
-Currently, two official plugins are available:
+Provide a compact, usable interface to search cities and view current weather and multi‑day forecasts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Demonstrate frontend architecture, API handling, responsive design, and basic data visualization for a portfolio piece.
 
-## React Compiler
+## Features
+Core Functionality
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Current Weather: display temperature, feels like, humidity, pressure, wind speed, and textual description.
 
-Note: This will impact Vite dev & build performances.
+Forecast: hourly and multi‑day forecast visualization (depending on chosen OpenWeather endpoint).
 
-## Expanding the ESLint configuration
+Search: city search with recent searches and simple suggestions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Favorites: save often checked locations to local storage.
+
+Error Handling: clear feedback for not found cities, network errors, and API limits.
+
+Key Protection: I protect API keys by storing them in GitHub Secrets to prevent exposure.
+
+## UX Details
+
+Local Storage: optional storage for recent searches, favorites, and unit preference.
+
+Animations on Scroll: subtle entrance animations for content using IntersectionObserver and Framer Motion.
+
+## React for UI.
+
+React for UI and component composition.
+
+axios for HTTP requests to OpenWeather API.
+
+CSS Modules for scoped styling.
+
+clsx for conditional class names.
+
+Framer Motion for animations.
+
+Chart.js (optional) for visualizing temperature and precipitation trends.
+
+MUI (optional) for UI primitives and responsive helpers.
