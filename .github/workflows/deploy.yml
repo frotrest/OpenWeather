@@ -34,6 +34,11 @@ jobs:
       - name: Build
         run: npm run build
 
+        env:
+          VITE_OPENWEATHER_KEY: ${{ secrets.VITE_OPENWEATHER_KEY }}
+          VITE_NEWS_KEY: ${{ secrets.VITE_NEWS_KEY }}
+          VITE_PIXABAY_KEY: ${{ secrets.VITE_PIXABAY_KEY }}
+
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v3
         with:
