@@ -1,0 +1,28 @@
+.nature {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .nature {
+    display: none;
+  }
+}
+
+.natureContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.natureContentTitle {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin: 0px;
+}

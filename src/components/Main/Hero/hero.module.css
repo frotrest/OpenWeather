@@ -1,0 +1,234 @@
+.hero {
+  background: url('@assets/hero.png') no-repeat center / cover;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+  .heroContent {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 40px;
+  }
+}
+
+.heroContentTitle {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat';
+  font-style: SemiBold;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0%;
+  margin: 0px;
+}
+
+@media (max-width: 1200px) {
+  .heroContentTitle {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat';
+    font-style: SemiBold;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroContentTitle {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat';
+    font-style: SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+}
+
+.heroAdditionalInformation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+
+@media (max-width: 1200px) {
+  .heroAdditionalInformation {
+    align-items: flex-start;
+    gap: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroAdditionalInformation {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-left: 2px solid white;
+    padding-left: 25px;
+  }
+}
+
+.heroAdditionalInformationTitle {
+  width: 165px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  margin: 0px;
+  text-align: right;
+}
+
+@media (max-width: 1200px) {
+  .heroAdditionalInformationTitle {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat';
+    font-style: Medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    width: 95px;
+    text-align: left;
+  }
+}
+
+.heroAdditionalInformationTitle:first-child {
+  width: 345px;
+  line-height: 30px;
+}
+
+@media (max-width: 1200px) {
+  .heroAdditionalInformationTitle:first-child {
+    width: 170px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat';
+    font-style: Medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroAdditionalInformationTitle:first-child {
+    width: 170px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Montserrat';
+    font-style: Medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+  }
+}
+
+.heroAdditionalInformationLine {
+  height: 145px;
+  background-color: white;
+  width: 2px;
+}
+
+@media (max-width: 1200px) {
+  .heroAdditionalInformationLine {
+    height: 110px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroAdditionalInformationLine {
+    display: none;
+  }
+}
+
+.heroForm {
+  display: flex;
+  align-items: center;
+}
+
+.heroFormFieldInput {
+  outline: none;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: rgba(217, 217, 217, 1);
+  padding: 15px 30px 15px 30px;
+  color: rgba(135, 135, 135, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  width: 625px;
+}
+
+@media (max-width: 1200px) {
+  .heroFormFieldInput {
+    width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroFormFieldInput {
+    width: 175px;
+    color: rgba(135, 135, 135, 1);
+    font-family: 'Montserrat';
+    font-style: Medium;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 7px;
+    padding: 5px 10px 5px 10px;
+    letter-spacing: 0%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+}
+
+.heroFormBtn {
+  padding: 10px;
+  border-left: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 0px 10px 10px 0px;
+  background: rgba(255, 179, 108, 1);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.heroFormBtn:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .heroFormBtn {
+    padding: 5px;
+  }
+}
+
+.heroFormBtnImg {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 768px) {
+  .heroFormBtnImg {
+    width: 10px;
+    height: 10px;
+  }
+}

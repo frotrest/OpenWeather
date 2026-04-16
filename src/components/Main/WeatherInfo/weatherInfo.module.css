@@ -1,0 +1,223 @@
+.weatherCards {
+  padding-top: 60px;
+}
+
+@media (max-width: 1200px) {
+  .weatherCards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .weatherCards {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+
+.weatherCardsContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .weatherCardsContent {
+    gap: 30px;
+  }
+}
+
+.weatherInfoErrorTitle {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.weatherCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 20px;
+  padding: 20px;
+  background: white;
+  border: 2px solid coral;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.weatherCard:hover {
+  border: 2px solid coral;
+  box-shadow: 3px 2px 20px 5px #000000b0;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .weatherCard {
+    width: 295px;
+    padding: 15px;
+  }
+}
+
+.weatherRegion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.weatherRegionTitle {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+
+.weatherCardTitle {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .weatherCardTitle {
+    font-size: 18px;
+  }
+}
+
+.weatherCardForecasts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.weatherCardForecastsBtn {
+  border-radius: 10px;
+  background: rgba(255, 179, 108, 1);
+  padding: 10px 20px 10px 20px;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0%;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .weatherCardForecastsBtn {
+    padding: 10px 15px 10px 15px;
+    font-size: 10px;
+  }
+}
+
+.weatherCardForecastsBtn:hover {
+  opacity: 1;
+}
+
+.weatherMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.weatherMainImg {
+  width: 120px;
+  height: 120px;
+}
+
+.weatherImgExplanation {
+  display: flex;
+  align-items: center;
+}
+
+.weatherTemp {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0%;
+  margin: 0px;
+}
+
+.weatherActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.weatherActionsBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px solid coral;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .weatherActionsBtn {
+    padding: 5px;
+  }
+}
+
+.weatherActionsBtn:hover {
+  background-color: coral;
+  color: white;
+}
+
+.weatherActionsBtnMore {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0%;
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  background: none;
+  cursor: pointer;
+  border: 2px solid coral;
+  transition: all 0.3s ease;
+}
+
+.weatherActionsBtnMore:hover {
+  background-color: coral;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .weatherActionsBtnMore {
+    font-size: 10px;
+    padding: 10px 20px 10px 20px;
+  }
+}

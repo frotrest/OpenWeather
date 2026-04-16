@@ -1,0 +1,155 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 5;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgba(255, 255, 255, 1);
+  }
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoBar {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+@media (max-width: 1200px) {
+  .logoBar {
+    gap: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logoBar {
+    gap: 0px;
+  }
+}
+
+.headerContentNavBar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 1200px) {
+  .headerContentNavBar {
+    gap: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerContentNavBar {
+    display: none;
+  }
+}
+
+.headerContentNavBarItem {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat Alternates';
+  font-style: Medium;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+  opacity: 0.7;
+}
+
+@media (max-width: 1200px) {
+  .headerContentNavBarItem {
+    font-size: 14px;
+  }
+}
+
+.headerContentNavBarItem:hover {
+  opacity: 1;
+}
+
+.personalProfile {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+@media (max-width: 768px) {
+  .personalProfile {
+    display: none;
+  }
+}
+
+.personalProfileBtn {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat Alternates';
+  font-style: Medium;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(255, 179, 108, 1);
+  border: none;
+  border-radius: 10px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.personalProfileBtn:hover {
+  opacity: 1;
+}
+
+.personalProfileName {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat Alternates';
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+}
+
+.dropMenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .dropMenu {
+    display: block;
+    position: relative;
+  }
+
+  .dropDown {
+    background: none;
+    border: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat Alternates';
+    font-style: Medium;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0%;
+  }
+}

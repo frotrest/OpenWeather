@@ -1,0 +1,169 @@
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  margin: 0px;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 1);
+  padding: 20px;
+  padding: 30px 80px;
+  gap: 40px;
+  width: 600px;
+}
+
+@media (max-width: 1200px) {
+  .modalContent {
+    gap: 20px;
+    width: 400px;
+    padding: 30px 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modalContent {
+    gap: 30px;
+    width: 295px;
+    padding: 25px;
+  }
+}
+
+.modalContentTitle {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat Alternates';
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0%;
+  margin: 0px;
+}
+
+@media (max-width: 1200px) {
+  .modalContentTitle {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat Alternates';
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (max-width: 1200px) {
+  .modalForm {
+    gap: 25px;
+  }
+}
+
+.modalFormLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  width: 440px;
+}
+
+@media (max-width: 1200px) {
+  .modalFormLabel {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    width: 310px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modalFormLabel {
+    width: 245px;
+  }
+}
+
+.modalFormInput {
+  border-radius: 10px;
+  background: rgba(228, 228, 228, 1);
+  padding: 15px 15px 15px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: rgba(171, 171, 171, 1);
+  font-family: 'Montserrat';
+  font-style: Medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+
+@media (max-width: 1200px) {
+  .modalFormInput {
+    color: rgba(171, 171, 171, 1);
+    font-family: 'Montserrat';
+    font-style: Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+  }
+}
+
+.modalFormBtn {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Montserrat';
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  padding: 10px 30px;
+  background-color: rgba(255, 179, 108, 1);
+  border: none;
+  border-radius: 10px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .modalFormBtn {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-style: Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+  }
+}
+
+.modalFormBtn:hover {
+  opacity: 1;
+}

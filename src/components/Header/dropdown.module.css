@@ -1,0 +1,72 @@
+.dropdownMenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .dropdownMenu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(230, 230, 230, 1);
+    padding: 30px 0px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+  }
+
+  .DropdownContentNavBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .dropdownMenuContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .DropdownContentNavBarItem {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat Alternates';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-decoration: none;
+  }
+
+  .personalProfile {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .personalProfileBtn {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat Alternates';
+    font-style: Medium;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    padding: 8px 15px 8px 15px;
+    background-color: rgba(255, 179, 108, 1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .personalProfileName {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Montserrat Alternates';
+    font-style: Medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+  }
+}
