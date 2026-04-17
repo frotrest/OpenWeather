@@ -36,32 +36,39 @@ const Nature = () => {
         dataAnimate="fadeInLeft"
       >
         <h2 className={clsx(styles.natureContentTitle)}>Beautiful nature</h2>
-        <Swiper
-          effect="coverflow"
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={'auto'}
-          loop={true}
-          autoplay={{ delay: 2000 }}
-          coverflowEffect={{
-            rotate: 0,
-            stretch: 0,
-            depth: 200,
-            modifier: 2,
-            slideShadows: true,
-          }}
-          modules={[Autoplay, EffectCoverflow]}
-        >
-          {images.slice(0, 10).map((item) => (
-            <SwiperSlide key={item.id}>
-              <img
-                src={item.webformatURL}
-                alt={item.tags}
-                className="swiperImg"
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        {images.length > 0 ? (
+          <Swiper
+            effect="coverflow"
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={'auto'}
+            loop={true}
+            observer={true}
+            observeParents={true}
+            autoplay={{ delay: 2000, disableOnInteraction: false }}
+            coverflowEffect={{
+              rotate: 0,
+              stretch: 0,
+              depth: 200,
+              modifier: 2,
+              slideShadows: true,
+            }}
+            modules={[Autoplay, EffectCoverflow]}
+          >
+            {images.slice(0, 10).map((item) => (
+              <SwiperSlide key={item.id} className={styles.mySlide}>
+                <img
+                  src={item.webformatURL}
+                  alt={item.tags}
+                  className="swiperImg"
+                  loading="lazy"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        ) : (
+          <div className={styles.loader}>Loading...</div>
+        )}
       </Container>
     </section>
   );
