@@ -22,7 +22,6 @@
 .heroContentTitle {
   color: rgba(255, 255, 255, 1);
   font-family: 'Montserrat';
-  font-style: SemiBold;
   font-size: 40px;
   font-weight: 600;
   line-height: 49px;
@@ -34,7 +33,6 @@
   .heroContentTitle {
     color: rgba(255, 255, 255, 1);
     font-family: 'Montserrat';
-    font-style: SemiBold;
     font-size: 28px;
     font-weight: 600;
     line-height: 24px;
@@ -46,7 +44,6 @@
   .heroContentTitle {
     color: rgba(255, 255, 255, 1);
     font-family: 'Montserrat';
-    font-style: SemiBold;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -82,7 +79,6 @@
   width: 165px;
   color: rgba(255, 255, 255, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 24px;
   font-weight: 500;
   line-height: 29px;
@@ -95,7 +91,6 @@
   .heroAdditionalInformationTitle {
     color: rgba(255, 255, 255, 1);
     font-family: 'Montserrat';
-    font-style: Medium;
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
@@ -115,7 +110,6 @@
     width: 170px;
     color: rgba(255, 255, 255, 1);
     font-family: 'Montserrat';
-    font-style: Medium;
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
@@ -128,7 +122,6 @@
     width: 170px;
     color: rgba(255, 255, 255, 1);
     font-family: 'Montserrat';
-    font-style: Medium;
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
@@ -168,7 +161,6 @@
   padding: 15px 30px 15px 30px;
   color: rgba(135, 135, 135, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -187,7 +179,6 @@
     width: 175px;
     color: rgba(135, 135, 135, 1);
     font-family: 'Montserrat';
-    font-style: Medium;
     font-size: 10px;
     font-weight: 500;
     line-height: 7px;

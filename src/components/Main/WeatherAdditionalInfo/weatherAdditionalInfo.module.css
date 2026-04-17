@@ -80,7 +80,6 @@
 .weatherAdditionalCardSubTitle {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -92,7 +91,6 @@
   .weatherAdditionalCardSubTitle {
     color: rgba(0, 0, 0, 1);
     font-family: 'Montserrat';
-    font-style: Medium;
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
@@ -103,7 +101,6 @@
 .weatherAdditionalCardTitle {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 32px;
   font-weight: 500;
   line-height: 39px;
@@ -117,7 +114,6 @@
   .weatherAdditionalCardTitle {
     color: rgba(0, 0, 0, 1);
     font-family: 'Montserrat';
-    font-style: Medium;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;

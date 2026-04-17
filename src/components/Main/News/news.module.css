@@ -18,7 +18,6 @@
 .newsArticlesContentTitle {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -54,7 +53,6 @@
   width: 270px;
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -66,7 +64,6 @@
 .newsArticlesContentBtn {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
