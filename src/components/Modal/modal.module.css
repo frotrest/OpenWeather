@@ -40,7 +40,6 @@
 .modalContentTitle {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat Alternates';
-  font-style: Medium;
   font-size: 28px;
   font-weight: 500;
   line-height: 34px;
@@ -52,7 +51,6 @@
   .modalContentTitle {
     color: rgba(0, 0, 0, 1);
     font-family: 'Montserrat Alternates';
-    font-style: Medium;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -80,7 +78,6 @@
   gap: 15px;
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -92,7 +89,6 @@
   .modalFormLabel {
     color: rgba(0, 0, 0, 1);
     font-family: 'Montserrat';
-    font-style: Medium;
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
@@ -116,7 +112,6 @@
   outline: none;
   color: rgba(171, 171, 171, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -127,7 +122,6 @@
   .modalFormInput {
     color: rgba(171, 171, 171, 1);
     font-family: 'Montserrat';
-    font-style: Medium;
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
@@ -138,7 +132,6 @@
 .modalFormBtn {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Regular;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -156,7 +149,6 @@
   .modalFormBtn {
     color: rgba(0, 0, 0, 1);
     font-family: 'Montserrat';
-    font-style: Regular;
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;

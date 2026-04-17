@@ -33,7 +33,6 @@
 .weatherInfoErrorTitle {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -76,7 +75,6 @@
 .weatherRegionTitle {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
@@ -86,7 +84,6 @@
 .weatherCardTitle {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 24px;
   font-weight: 500;
   line-height: 29px;
@@ -113,7 +110,6 @@
   padding: 10px 20px 10px 20px;
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 12px;
   font-weight: 500;
   line-height: 12px;
@@ -155,7 +151,6 @@
 .weatherTemp {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 32px;
   font-weight: 500;
   line-height: 39px;
@@ -197,7 +192,6 @@
 .weatherActionsBtnMore {
   color: rgba(0, 0, 0, 1);
   font-family: 'Montserrat';
-  font-style: Medium;
   font-size: 12px;
   font-weight: 500;
   line-height: 12px;
