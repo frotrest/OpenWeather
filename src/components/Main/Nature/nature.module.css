@@ -1,6 +1,7 @@
 .nature {
   padding-top: 80px;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 
 @media (max-width: 1200px) {
@@ -25,4 +26,14 @@
   line-height: 24px;
   letter-spacing: 0%;
   margin: 0px;
+}
+
+.loader {
+  height: 260px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+  border-radius: 20px;
 }
