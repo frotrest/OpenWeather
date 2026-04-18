@@ -40,6 +40,7 @@
 @media (max-width: 768px) {
   .chartForecastMobile {
     display: block !important;
+    overflow: hidden;
   }
   .chartForecast {
     display: none !important;

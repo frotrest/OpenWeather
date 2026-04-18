@@ -200,7 +200,7 @@ const WeatherInfo = () => {
         {selectedId && showHourly && (
           <HourlyForeCast key={`hourly-${selectedId}`}>
             <HourlyChart forecast={hourlyData.slice(0, 8)} />
-            <HourlyChartMobile forecast={hourlyData.slice(0, 3)} />
+            <HourlyChartMobile forecast={hourlyData.slice(0, 5)} />
           </HourlyForeCast>
         )}
         {selectedId && showWeekly && (
