@@ -8,7 +8,7 @@ const Main = () => {
     <main>
       <Hero />
       <WeatherInfo />
-      <News />
+      {/* <News /> */}
       <Nature />
     </main>
   );
