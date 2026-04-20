@@ -13,7 +13,7 @@ const HourlyForeCast = ({ children }) => {
       exit={{ opacity: 0, height: 0 }}
       transition={{ duration: 0.4, ease: 'easeInOut' }}
     >
-      <Container className={clsx(styles.forecastContent)} dataAnimate="fadeIn">
+      <Container className={clsx(styles.forecastContent)}>
         <h2 className={clsx(styles.forecastContentTitle)}>Hourly forecast</h2>
         {children}
       </Container>
