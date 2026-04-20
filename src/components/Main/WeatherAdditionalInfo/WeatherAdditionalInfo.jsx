@@ -30,10 +30,7 @@ const WeatherAdditionalInfo = ({ data }) => {
       transition={{ duration: 0.4, ease: 'easeInOut' }}
     >
       <Container className={clsx(styles.weatherAdditionalCardsContent)}>
-        <div
-          className={clsx(styles.weatherAdditionalCard)}
-          data-animate="fadeIn"
-        >
+        <div className={clsx(styles.weatherAdditionalCard)}>
           <h5 className={clsx(styles.weatherAdditionalCardSubTitle)}>
             Feels like
           </h5>
@@ -46,10 +43,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             className={clsx(styles.weatherAdditionalCardImg)}
           />
         </div>
-        <div
-          className={clsx(styles.weatherAdditionalCard)}
-          data-animate="fadeIn"
-        >
+        <div className={clsx(styles.weatherAdditionalCard)}>
           <h5 className={clsx(styles.weatherAdditionalCardSubTitle)}>Min ℃</h5>
           <h2 className={clsx(styles.weatherAdditionalCardTitle)}>
             {dailyRange && isFinite(dailyRange.min)
@@ -65,10 +59,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             °C
           </h2>
         </div>
-        <div
-          className={clsx(styles.weatherAdditionalCard)}
-          data-animate="fadeIn"
-        >
+        <div className={clsx(styles.weatherAdditionalCard)}>
           <h5 className={clsx(styles.weatherAdditionalCardSubTitle)}>
             Humidity
           </h5>
@@ -81,10 +72,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             className={clsx(styles.weatherAdditionalCardImg)}
           />
         </div>
-        <div
-          className={clsx(styles.weatherAdditionalCard)}
-          data-animate="fadeIn"
-        >
+        <div className={clsx(styles.weatherAdditionalCard)}>
           <h5 className={clsx(styles.weatherAdditionalCardSubTitle)}>
             Pressure
           </h5>
@@ -97,10 +85,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             className={clsx(styles.weatherAdditionalCardImg)}
           />
         </div>
-        <div
-          className={clsx(styles.weatherAdditionalCard)}
-          data-animate="fadeIn"
-        >
+        <div className={clsx(styles.weatherAdditionalCard)}>
           <h5 className={clsx(styles.weatherAdditionalCardSubTitle)}>
             Wind speed
           </h5>
@@ -113,10 +98,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             className={clsx(styles.weatherAdditionalCardImg)}
           />
         </div>
-        <div
-          className={clsx(styles.weatherAdditionalCard)}
-          data-animate="fadeIn"
-        >
+        <div className={clsx(styles.weatherAdditionalCard)}>
           <h5 className={clsx(styles.weatherAdditionalCardSubTitle)}>
             Visibility
           </h5>

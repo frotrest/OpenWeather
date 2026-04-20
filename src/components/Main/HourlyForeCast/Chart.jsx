@@ -46,10 +46,20 @@ const HourlyChart = ({ forecast }) => {
 
   const options = {
     responsive: true,
-
     plugins: {
       legend: { display: false },
-      tooltip: { enabled: true },
+      tooltip: {
+        enabled: true,
+        titleFont: { size: 14, family: 'Montserrat' },
+        backgroundColor: 'rgba(238, 74, 33, 0.9)',
+        titleColor: '#fff',
+        bodyColor: '#f0d911',
+        borderColor: '#ff868d',
+        borderWidth: 1,
+        cornerRadius: 8,
+        padding: 12,
+        displayColors: false,
+      },
     },
     scales: {
       x: {
