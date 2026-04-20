@@ -29,9 +29,7 @@ const WeatherAdditionalInfo = ({ data }) => {
       exit={{ opacity: 0, height: 0 }}
       transition={{ duration: 0.4, ease: 'easeInOut' }}
     >
-      <Container
-        className={clsx(styles.weatherAdditionalCardsContent)}
-      >
+      <Container className={clsx(styles.weatherAdditionalCardsContent)}>
         <div
           className={clsx(styles.weatherAdditionalCard)}
           data-animate="fadeIn"
