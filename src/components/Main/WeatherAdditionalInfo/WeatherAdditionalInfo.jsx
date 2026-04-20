@@ -31,7 +31,6 @@ const WeatherAdditionalInfo = ({ data }) => {
     >
       <Container
         className={clsx(styles.weatherAdditionalCardsContent)}
-        dataAnimate="fadeInLeft"
       >
         <div
           className={clsx(styles.weatherAdditionalCard)}

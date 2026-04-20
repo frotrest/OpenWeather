@@ -15,7 +15,6 @@ const WeeklyForeCast = ({ weeklyData }) => {
     >
       <Container
         className={clsx(styles.WeeklyForeCastContent)}
-        dataAnimate="fadeIn"
       >
         <h2 className={clsx(styles.WeeklyForeCastContentTitle)}>
           5-day forecast
