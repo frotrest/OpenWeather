@@ -13,9 +13,7 @@ const WeeklyForeCast = ({ weeklyData }) => {
       exit={{ opacity: 0, height: 0 }}
       transition={{ duration: 0.4, ease: 'easeInOut' }}
     >
-      <Container
-        className={clsx(styles.WeeklyForeCastContent)}
-      >
+      <Container className={clsx(styles.WeeklyForeCastContent)}>
         <h2 className={clsx(styles.WeeklyForeCastContentTitle)}>
           5-day forecast
         </h2>
