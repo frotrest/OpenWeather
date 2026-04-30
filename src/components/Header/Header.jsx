@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './header.module.css';
 import Container from '../../Container';
-import Logo from '@assets/logo.png';
+import Logo from '@assets/logo.webp';
 import { PiUserCircleDuotone } from 'react-icons/pi';
 import ModalContext from '../../Contexts/ModalContext';
 import { useContext, useState } from 'react';
