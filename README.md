@@ -1,4 +1,5 @@
 # Project Overview
+
 OpenWeather Dashboard is an adaptive single‑page application for fetching and displaying current weather and short‑term forecasts for user‑selected locations. The project is a learning pet project that demonstrates practical React patterns, responsive UI, API integration, and lightweight state management.
 
 ## Purpose
@@ -8,6 +9,7 @@ Provide a compact, usable interface to search cities and view current weather an
 Demonstrate frontend architecture, API handling, responsive design, and basic data visualization for a portfolio piece.
 
 ## Features
+
 Core Functionality
 
 Current Weather: display temperature, feels like, humidity, pressure, wind speed, and textual description.
