@@ -41,7 +41,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             src={thermometer}
             alt="thermometer"
             className={clsx(styles.weatherAdditionalCardImg)}
-            loading='lazy'
+            loading="lazy"
           />
         </div>
         <div className={clsx(styles.weatherAdditionalCard)}>
@@ -71,7 +71,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             src={cloud}
             alt="cloud"
             className={clsx(styles.weatherAdditionalCardImg)}
-            loading='lazy'
+            loading="lazy"
           />
         </div>
         <div className={clsx(styles.weatherAdditionalCard)}>
@@ -85,7 +85,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             src={calculator}
             alt="calculator"
             className={clsx(styles.weatherAdditionalCardImg)}
-            loading='lazy'
+            loading="lazy"
           />
         </div>
         <div className={clsx(styles.weatherAdditionalCard)}>
@@ -99,7 +99,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             src={wind}
             alt="wind"
             className={clsx(styles.weatherAdditionalCardImg)}
-            loading='lazy'
+            loading="lazy"
           />
         </div>
         <div className={clsx(styles.weatherAdditionalCard)}>
@@ -113,7 +113,7 @@ const WeatherAdditionalInfo = ({ data }) => {
             src={view}
             alt="view"
             className={clsx(styles.weatherAdditionalCardImg)}
-            loading='lazy'
+            loading="lazy"
           />
         </div>
       </Container>
