@@ -1,10 +1,10 @@
 import clsx from 'clsx';
 import styles from './footer.module.css';
 import Container from '../../Container';
-import Logo from '@assets/logo.png';
-import Facebook from '@assets/facebook.png';
-import Instagram from '@assets/instagram.png';
-import WhatsApp from '@assets/whatsapp.png';
+import Logo from '@assets/logo.webp';
+import Facebook from '@assets/facebook.webp';
+import Instagram from '@assets/instagram.webp';
+import WhatsApp from '@assets/whatsapp.webp';
 
 const Footer = () => {
   return (

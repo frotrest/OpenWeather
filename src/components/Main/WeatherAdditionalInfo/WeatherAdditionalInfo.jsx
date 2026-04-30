@@ -3,11 +3,11 @@ import WeatherContext from '../../../Contexts/WeatherContext';
 import Container from '../../../Container';
 import styles from './weatherAdditionalInfo.module.css';
 import clsx from 'clsx';
-import thermometer from '@assets/thermometer.png';
-import cloud from '@assets/cloud.png';
-import calculator from '@assets/calculator.png';
-import wind from '@assets/wind.png';
-import view from '@assets/view.png';
+import thermometer from '@assets/thermometer.webp';
+import cloud from '@assets/cloud.webp';
+import calculator from '@assets/calculator.webp';
+import wind from '@assets/wind.webp';
+import view from '@assets/view.webp';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 
