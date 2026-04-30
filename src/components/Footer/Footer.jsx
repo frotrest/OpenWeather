@@ -15,6 +15,7 @@ const Footer = () => {
             src={Logo}
             alt="logo-footer"
             className={clsx(styles.footerContentLogo)}
+            loading='lazy'
           />
           <div className={clsx(styles.footerAddress)}>
             <h2 className={clsx(styles.footerAddressTitle)}>Address</h2>
@@ -31,6 +32,7 @@ const Footer = () => {
                 src={Facebook}
                 alt="facebook"
                 className={clsx(styles.network)}
+                loading='lazy'
               />
             </a>
             <a href="#" className={clsx(styles.networkLink)}>
@@ -39,6 +41,7 @@ const Footer = () => {
                 alt="instagram"
                 className={clsx(styles.network)}
                 width={55}
+                loading='lazy'
               />
             </a>
             <a href="#" className={clsx(styles.networkLink)}>
@@ -47,6 +50,7 @@ const Footer = () => {
                 alt="whatsapp"
                 className={clsx(styles.network)}
                 width={42}
+                loading='lazy'
               />
             </a>
           </div>
